@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Daily Ledger</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sheet">
+  <header>
+    <h1>The Daily Ledger</h1>
+    <p><span id="count">0 entries</span></p>
+  </header>
+
+  <form id="add-form">
+    <input type="text" id="new-task" placeholder="Write today's entry…" autocomplete="off" />
+    <button type="submit">Add</button>
+  </form>
+
+  <ul id="task-list"></ul>
+  <p class="empty" id="empty-msg">Nothing on the books yet.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
